@@ -1,0 +1,4 @@
+br.net.projetabrasil.service.robo
+em AbstractApiService adicionar ao final da lista (todos robos inclusive condominio)
+	@Inject
+	{classe servico} {nomeSite}{Servico}Service;
