@@ -1,0 +1,13 @@
+criar classe {nomesite}RoboApi em br.net.projetabrasil.api.robo;
+	copiar de outro robo api com
+	RoboCondominioApiService\\ para robos condominios
+	RoboApiService\\ para robos NAO condominios
+
+	@Path("/{nomesite}") \\renomear(camelCase)
+	class {nomesite}RoboApi
+	Logger log \\copiar 
+	@POST
+	@Path("/{servico}")\\copiar apropriado(camelCase)
+	public Response processar{servico}
+	
+	mudar logs para nome corretos
