@@ -1,0 +1,6 @@
+em Deployed Resorces/webapp/app/controller/usuario.controller.js (robos CONDOMINIO apenas!!)
+	achar funcao "function getCondominio(nome)"\\linha 251
+	e adicionar
+	if ("{nomesite}" === nome) {\\(SNAKE_CASE) copiar de constants
+		return true;
+	}
