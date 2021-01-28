@@ -1,0 +1,12 @@
+(criando entidade)
+em br.net.projetabrasil.domain.entity;
+criar classe  {NomeSite} extends Parametro  \\anotar classe com @Entity
+	private static final long serialVersionUID = 1L;
+	\\ strigns q vc pede parametro 
+	@JsonIgnore
+	@ManyToOne
+	private Header header;
+	
+	clic direito do mouse/source/generete geters and seters
+	selecione todos menos serialVersionUID 
+	ok
