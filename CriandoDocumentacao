@@ -1,0 +1,33 @@
+(criando documentacao)
+em Deployed Resorces/webapp/documentacao
+	crie pasta {nomesite}
+	nessa pasta crie o arquivo \\ copiar template ou outra documentacao e e modificar de acordo
+		{servico}{nomesite}.html
+	para os jsons com servidor rodando utilize postman ou insomnia para testar api
+	post http://localhost:8080/zion2/api/{nomesite}/{servico}
+	passando json no formato
+{
+  "cpfCnpj": "66666666666669",\\esse campo eh o cpfCnpj do usuario 66666666666669 eh o usuario interno
+  \\campos header q vc utiliza
+  "{campo header}": "{valor}",
+  "parametros": [  \\ parametros/entidades para teste
+	{\\campos entidade/parametro q vc utiliza
+		"{campo entidade}": "{valor}",
+		"{campo entidade}": "{valor}"
+	},
+	{
+		"codigoImovel": "4274-4D",\\ exemplos
+		"cnpj":"83874537000108"
+	},
+	{
+		"codigoImovel": "4274-4D",
+		"cnpj":"62636741000110"
+	}
+	]
+}
+	pegue o resultado
+	passe por CleanJson \\em br.net.projetabrasil.file
+	idente com https://jsonformatter.curiousconcept.com/
+	remova dados pesoais exemplo:
+	nome: adndre pereira reis > nome: fulano
+	endereco: rua pequeno principe numero 195 >endereco: rua tal numero 123
