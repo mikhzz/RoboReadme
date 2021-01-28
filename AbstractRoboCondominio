@@ -1,0 +1,18 @@
+@Override
+	findParameters initPage  \\apenas condominio
+
+criar classe  {Servico}{Nomesite}Service nesse pacote extends {Nomesite}Service
+implementar:
+	@Override
+	getNomeServico() return Constants.{servico}\\ (SNAKE_CASE)
+
+	Logger log\\copiar
+
+	@Override
+	executeSite \\seguir o seguinte padrao
+	{Entidade} {entidade} = ({Entidade}) parametro;\\ ver(criando entidade) linha 106
+	try{
+		\\seucodigo aqui
+	if (!listVOs.isEmpty()){ parametro.setResultado(JsonUtils.toJson(listVOs));}
+	if (!pdfs.isEmpty()) condominio.setPdfs(JsonUtils.toJson(pdfs.toArray(new String[] {})));}
+	}finally {FileUtils.deleteAllFiles(pathDownload);Utils.closeWindows(webDriver);}
