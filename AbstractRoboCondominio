@@ -16,3 +16,10 @@ implementar:
 	if (!listVOs.isEmpty()){ parametro.setResultado(JsonUtils.toJson(listVOs));}
 	if (!pdfs.isEmpty()) condominio.setPdfs(JsonUtils.toJson(pdfs.toArray(new String[] {})));}
 	}finally {FileUtils.deleteAllFiles(pathDownload);Utils.closeWindows(webDriver);}
+	
+	demais medodos de acordo com nessecidade\\observar outras classes seguir padrao
+		setListVO
+		downloadPDF
+		readPdf
+		setVO
+	ps: anotar classes que retorna pdfs com @SkipResultLog(type = true) 
