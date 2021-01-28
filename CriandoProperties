@@ -1,0 +1,12 @@
+(criando properties)
+em src/main/resources/properties 
+	criar {nomesite}.properties
+	criar properties no padrao : \\ps :Source
+		{nomesite}{NomeString}=valor \\ strings copartilhadas de {Nomesite}Service
+		{nomesite}{Servico}{NomeString}=valor\\ strings de {Servico}{Nomesite}Service
+	achar em config.properties a lista properties=\n\
+	 adicionar {nomesite} ao final da lista seguiindo o padrao da lista
+	 ps:{nomesite} igual a {nomesite}.properties
+
+	 headless=false \\para desenvolvimento
+	 PS: testar com headless=true antes de pedir merge
